@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <h4>Death Papers</h4>
+    <h4>death papers</h4>
     <NavMenu />
   </div>
 </template>
@@ -28,8 +28,9 @@ export default {
 
 
 h4 {
-  color: #dbdbdb;
+  color: #a80e0f;
   font-size: 10em;
+  margin-left: .2em;
 }
 
 </style>

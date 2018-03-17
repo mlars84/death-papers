@@ -2,7 +2,7 @@
   <div>
     <Header />
     <div class="container">
-      <p>Bio goes here...</p>
+      <p>shows go here...</p>
     </div>
     <Footer />
   </div>
