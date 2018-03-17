@@ -1,17 +1,20 @@
 <template>
   <div class="body">
-    <video autoplay muted loop id="myVideo">
-      <source src="../assets/Dark Clouds video background  ___Free___.mp4" type="video/mp4">
-    </video>
+    <!-- <h1>death papers hails from st paul mn</h1>
+    <br>
+    <p>it is a cold dark place</p>
+    <br>
+    <p>and nothing grows there</p> -->
     <div class="content">
       <h1>death papers hails from st paul mn</h1>
       <br>
       <p>it is a cold dark place</p>
       <br>
       <p>and nothing grows there</p>
-      <!-- Use a button to pause/play the video with JavaScript -->
-      <!-- <button id="myBtn" onclick="myFunction()">Pause</button> -->
     </div>
+    <video class="animated fadeOutDown" autoplay muted loop id="myVideo">
+      <source src="../assets/Dark Clouds video background  ___Free___.mp4" type="video/mp4">
+    </video>
   </div>
 </template>
 
@@ -26,24 +29,26 @@ export default {
 <style>
 
 #myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
+  /* position: fixed; */
+  /* right: 0; */
+  /* bottom: 0; */
+  width: 80%; 
+  height: 80%;
 }
 
 .body {
+  margin-top: 3em;
   padding: 8em 16em;
-  background: #dbdbdb;
+  /* background: #dbdbdb; */
   font-family: 'Open Sans', sans-serif;
 }
 
 .content {
-  position: fixed;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
+  /* position: fixed;
+  bottom: 0; */
+  padding-top: .5em;
+  /* background: rgba(0, 0, 0, 0.5); */
+  color: #dbdbdb;
   width: 100%;
   padding: 20px;
   margin-right: 10px;

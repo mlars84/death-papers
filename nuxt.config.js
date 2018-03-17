@@ -12,7 +12,8 @@ module.exports = {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/skull.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Londrina+Sketch' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans' },
+      { rel: 'stylesheet', href: 'animate.min.css' }
     ]
   },
   /*
