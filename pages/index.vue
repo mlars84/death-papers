@@ -38,7 +38,7 @@ export default {
 
 .title {
   /* font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 1 */
-  font-family: "Londrina Sketch", "cursive";
+  font-family: 'Open Sans', sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;
@@ -47,7 +47,7 @@ export default {
 }
 
 .subtitle {
-  font-family: "Londrina Sketch", "sans-serif";
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 42px;
   color: #f8e773;

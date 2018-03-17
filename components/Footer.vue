@@ -17,9 +17,9 @@ export default {
 <style>
 .footer { 
   font-family: 'Open Sans', sans-serif;
-  color: #f8e773; 
+  color: #dbdbdb; 
   width: 100%;
-  min-height: 10vh;
+  min-height: 5vh;
   height: 50px;
   margin-top: -50px;
   text-align: center;

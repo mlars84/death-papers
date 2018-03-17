@@ -22,6 +22,10 @@ module.exports = {
   /*
   ** Build configuration
   */
+  // modules: [
+  //   '@nuxtjs/font-awesome',
+  //   '@nuxtjs/bulma'
+  // ],
   build: {
     /*
     ** Run ESLint on save

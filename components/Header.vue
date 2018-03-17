@@ -18,18 +18,19 @@ export default {
 }
 </script>
 
-<style lang="stylus">
-.header
-  width 100%
-  height 7vh
-  background-color #1b2124 
-  padding-top 1em
-  border-bottom 2px solid #1b2124 
+<style>
+.header {
+  width: 100%;
+  height: 7vh;
+  background-color: #1b2124; 
+  border-bottom: 2px solid #1b2124; 
+}
 
-h4
-  color #dbdbdb
-  padding 1em
-  font-size 10em
+
+h4 {
+  color: #dbdbdb;
+  font-size: 10em;
+}
 
 </style>
 

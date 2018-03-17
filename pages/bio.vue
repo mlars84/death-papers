@@ -33,8 +33,8 @@ export default {
   text-align: center;
   background: #1b2124;
   color: #f8e773;
-  font-size: 75px;
-  font-family: "Londrina Sketch", "sans-serif";
+  font-size: 50px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 </style>
