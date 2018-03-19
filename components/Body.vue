@@ -6,7 +6,7 @@
     <br>
     <p>and nothing grows there</p> -->
     <div class="content">
-      <h1>death papers hails from st paul mn</h1>
+      <h1>hails from st paul mn</h1>
       <br>
       <p>it is a cold dark place</p>
       <br>

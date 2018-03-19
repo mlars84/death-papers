@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <h4>death papers</h4>
+    <h4>barbara devil</h4>
     <NavMenu />
   </div>
 </template>

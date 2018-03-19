@@ -8,7 +8,7 @@
 export default {
   data () {
     return {
-      footer: 'death papers ©2018'
+      footer: 'barbara devil ©2018'
     }
   }
 }
