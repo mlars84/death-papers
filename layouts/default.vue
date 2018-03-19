@@ -21,7 +21,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  background-color: #1b2124;
+  background-color: black;
 }
 
 *, *:before, *:after {

@@ -18,11 +18,14 @@ export default {
 .footer { 
   font-family: 'Open Sans', sans-serif;
   color: #dbdbdb; 
+  background: black;
   width: 100%;
   min-height: 5vh;
   height: 50px;
   margin-top: -50px;
-  text-align: center;
+  padding: 1em 0 0 1em;
+  position: relative;
+  /* text-align: center; */
 }
 
 </style>
