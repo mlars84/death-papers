@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <h4>barbara devil</h4>
+    <h4>lust for the devil</h4>
     <NavMenu />
   </div>
 </template>
@@ -20,15 +20,16 @@ export default {
 
 <style>
 .header {
+  font-family: 'UnifrakturMaguntia', cursive;
   width: 100%;
   height: 7vh;
-  background-color: #1b2124; 
+  background-color: #f5f556; 
   border-bottom: 2px solid #1b2124; 
 }
 
 
 h4 {
-  color: #a80e0f;
+  color: #f21d26;
   font-size: 10em;
   margin-left: .2em;
 }

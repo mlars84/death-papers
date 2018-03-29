@@ -3,7 +3,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'Barbara Devil',
+    title: 'Lust for the Devil',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -13,7 +13,9 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/skull.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Londrina+Sketch' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans' },
-      { rel: 'stylesheet', href: 'animate.min.css' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=UnifrakturMaguntia' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto' }
     ]
   },
   /*

@@ -25,16 +25,16 @@ export default {
 <style>
 
 .container {
-  min-height: 100vh;
-  height: 100%;
+  min-height: 92vh;
+  height: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: #1b2124;
-  color: #f8e773;
-  font-size: 50px;
-  font-family: 'Open Sans', sans-serif;
+  background: #261e1c;
+  color: #f5f556;
+  font-size: 30px;
+  font-family: 'IM Fell DW Pica', serif;
 }
 
 </style>

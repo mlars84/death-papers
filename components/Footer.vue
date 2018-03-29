@@ -8,7 +8,7 @@
 export default {
   data () {
     return {
-      footer: 'barbara devil ©2018'
+      footer: 'lust for the devil ©2018'
     }
   }
 }
@@ -17,15 +17,15 @@ export default {
 <style>
 .footer { 
   font-family: 'Open Sans', sans-serif;
-  color: #dbdbdb; 
-  background: black;
+  background: #f5f556;
+  color: #261e1c;
   width: 100%;
   min-height: 5vh;
   height: 50px;
   margin-top: -50px;
-  padding: 1em 0 0 1em;
+  padding: 1em 4em 0 1em;
   position: relative;
-  /* text-align: center; */
+  text-align: right;
 }
 
 </style>

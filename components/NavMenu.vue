@@ -19,14 +19,14 @@ export default {
     margin-left: 80vw;
   }
   a {
+    font-family: 'Roboto', sans-serif;
     padding: 1em;
-    color: #dbdbdb;
+    color: #f5f556;
     text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
   }
   a:hover {
-    color: #a80e0f;
+    color: #f21d26;
   }
 </style>
 
