@@ -1,31 +1,37 @@
 <template>
-  <div class="footer">
-      {{ footer }}
-  </div>
+  <div>
+    <footer class="footer">
+      <div>
+        <div class="content has-text-right">
+          <p>
+          {{ footer }} 
+          </p>
+        </div>
+      </div>
+      </footer>
+    </div> 
 </template>
 
 <script>
 export default {
   data () {
     return {
-      footer: 'lust for the devil ©2018'
+      footer: '©2018 lust for the devil'
     }
   }
 }
 </script>
 
-<style>
-.footer { 
-  font-family: 'Open Sans', sans-serif;
-  background: #f5f556;
-  color: #261e1c;
+<style lang="scss" scoped>
+
+.footer {
+  position: absolute;
+  background-color: $primary;
+  color: $dark;
   width: 100%;
-  min-height: 5vh;
-  height: 50px;
-  margin-top: -50px;
-  padding: 1em 4em 0 1em;
-  position: relative;
-  text-align: right;
+  bottom: 0;
+  overflow: hidden;
+  padding: .5em;
 }
 
 </style>

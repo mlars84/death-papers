@@ -1,45 +1,34 @@
 <template>
-  <div>
-    <Header />
-    <div class="container">
-      <div class="column">
-        <p>emily dantuma | vocals</p>
-        <p>joe krawetz | bass</p>
-        <p>matt larson | drums</p>
-        <p>dan weiken | guitar</p>
-      </div>
+  <div class="container is-widescreen">
+    <div class="column">
+      <p>emily dantuma | vocals</p>
+      <p>joe krawetz | bass</p>
+      <p>matt larson | drums</p>
+      <p>dan weiken | guitar</p>
     </div>
-    <Footer />
   </div>
 </template>
-<script>
-import Header from '../components/Header'
-import Footer from '../components/Footer'
 
+<script>
 export default {
-  components: {
-    Header,
-    Footer
-  },
-  data () {
+  data: function () {
     return {}
   }
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
 
 .container {
-  min-height: 92vh;
-  height: 90%;
+  min-height: 98vh;
+  height: 98%;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: #261e1c;
-  color: #f5f556;
+  background: $dark;
+  color: $secondary;
   font-size: 30px;
-  font-family: 'IM Fell DW Pica', serif;
 }
   
 .column {
@@ -47,8 +36,14 @@ export default {
   padding-top: 2em;
 }
 
-p:hover {
-  color: #f21d26;
+.footer {
+  position: absolute;
+  background-color: $primary;
+  color: $dark;
+  width: 100%;
+  bottom: 0;
+  overflow: hidden;
+  padding: .5em;
 }
 
 </style>

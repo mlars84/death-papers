@@ -1,40 +1,39 @@
 <template>
-  <div>
-    <Header />
-    <div class="container">
-      <p>shows go here...</p>
-    </div>
-    <Footer />
+  <div class="container is-widescreen">
+    <p>shows go here...</p>
   </div>
 </template>
-<script>
-import Header from '../components/Header'
-import Footer from '../components/Footer'
 
+<script>
 export default {
-  components: {
-    Header,
-    Footer
-  },
-  data () {
+  data: function () {
     return {}
   }
 }
 </script>
 
-<style>
+<style lang="scss" scoped> 
 
 .container {
-  min-height: 92vh;
-  height: 90%;
+  min-height: 98vh;
+  height: 98%;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: #261e1c;
-  color: #f5f556;
+  background: $dark;
+  color: $secondary;
   font-size: 30px;
-  font-family: 'IM Fell DW Pica', serif;
+}
+
+.footer {
+  position: absolute;
+  background-color: $primary;
+  color: $dark;
+  width: 100%;
+  bottom: 0;
+  overflow: hidden;
+  padding: .5em;
 }
 
 </style>

@@ -1,6 +1,5 @@
 <template>
-  <div class="header">
-    <h4>lust for the devil</h4>
+  <div class="hero">
     <NavMenu />
   </div>
 </template>
@@ -18,20 +17,14 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+
 .header {
-  font-family: 'UnifrakturMaguntia', cursive;
+  font-family: 'Shrikhand', cursive;
+  background: $primary;
+  color: $secondary;
   width: 100%;
-  height: 7vh;
-  background-color: #f5f556; 
   border-bottom: 2px solid #1b2124; 
-}
-
-
-h4 {
-  color: #f21d26;
-  font-size: 10em;
-  margin-left: .2em;
 }
 
 </style>

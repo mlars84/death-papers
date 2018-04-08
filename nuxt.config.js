@@ -15,13 +15,24 @@ module.exports = {
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=UnifrakturMaguntia' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Shrikhand' }
+    ],
+    css: [
+      // node.js module but we specify the pre-processor
+      { src: './assets/main.scss', lang: 'sass' },
+      // { src: 'bulma/bulma.sass', lang: 'sass' },
+      { src: 'font-awesome/scss/font-awesome.scss', lang: 'scss' },
     ]
   },
+  modules: [
+    // provide path to the file with resources
+    ['nuxt-sass-resources-loader', './assets/main.scss']
+  ],
   /*
   ** Customize the progress bar color
   */
-  loading: { color: '#3B8070' },
+  loading: { color: '#0ee58b' },
   /*
   ** Build configuration
   */

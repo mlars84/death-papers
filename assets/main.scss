@@ -1,0 +1,29 @@
+@import "~bulma/sass/utilities/_all.sass";
+
+$primary: #0ee58b;
+// $phlem: #50695f;
+// $primary: $phlem;
+$secondary: white;
+$dark: #1e201f;
+
+$navbar-item-color: $primary;
+$navbar-item-hover-color: $secondary;
+$navbar-item-hover-background-color: $dark;
+
+$family-serif: 'IM Fell DW Pica', serif;
+
+$danger: $orange;
+$family-primary: $family-serif; 
+
+// $footer-background-color: $phlem;
+.footer {
+    position: absolute;
+    background-color: $primary;
+    color: $secondary;
+    width: 100%;
+    bottom: 0;
+    overflow:hidden;
+    padding: .5em;
+}
+
+@import "~bulma/bulma";

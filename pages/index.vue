@@ -1,45 +1,48 @@
 <template>
-<div>
-  <Header />
-  <section class="container">
-    lust for the devil 
+<div> 
+  <section class="container is-widescreen">
+    <div>
+      lust for the devil 
     <br>
-    hails from st paul, mn
+    from st paul, mn
+    </div>
   </section>
-  <Footer />
 </div>
 </template>
 
 <script>
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-
 export default {
-  components: {
-    Header, 
-    Footer
-  },
-  data () {
+  data: function () {
     return {}
   }
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
 .container {
-  min-height: 92vh;
-  height: 90%;
+  min-height: 98vh;
+  height: 98%;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: #261e1c;
-  color: #f5f556;
+  background: $dark;
+  color: $secondary;
   font-size: 30px;
   font-family: 'IM Fell DW Pica', serif;
 }
 
 .links {
   padding-top: 15px;
+}
+
+.footer {
+  position: absolute;
+  background-color: $primary;
+  color: $dark;
+  width: 100%;
+  bottom: 0;
+  overflow: hidden;
+  padding: .5em;
 }
 </style>
