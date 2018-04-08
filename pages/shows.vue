@@ -1,6 +1,6 @@
 <template>
   <div class="container is-widescreen">
-    <p>shows go here...</p>
+    <p>all the shows go here...</p>
   </div>
 </template>
 
