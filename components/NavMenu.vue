@@ -35,7 +35,7 @@ export default {
 }
 
 .navbar-item {
-  font-size: 60px;
+  font-size: 40px;
 }
 
 .tic {

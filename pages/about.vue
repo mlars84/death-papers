@@ -20,8 +20,9 @@ export default {
 <style lang="scss" scoped>
 
 .container {
-  min-height: 98vh;
-  height: 98%;
+  margin-top: 5em;
+  min-height: 40vh;
+  height: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,20 +32,20 @@ export default {
   font-size: 30px;
 }
   
-.column {
-  flex-direction: row;
-  padding-top: 2em;
-}
+// .column {
+//   flex-direction: row;
+//   padding-top: 2em;
+// }
 
-.footer {
-  position: absolute;
-  background-color: $primary;
-  color: $dark;
-  width: 100%;
-  bottom: 0;
-  overflow: hidden;
-  padding: .5em;
-}
+// .footer {
+//   position: absolute;
+//   background-color: $primary;
+//   color: $dark;
+//   width: 100%;
+//   bottom: 0;
+//   overflow: hidden;
+//   padding: .5em;
+// }
 
 </style>
 

@@ -28,19 +28,18 @@ export default {
 
 html {
   font-family: $family-primary;
-  font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  background: $dark;
+  background-color: $dark !important;
 }
 
 .main {
-  min-height: 98vh;
-  height: 98%;
+//   min-height: 98vh;
+//   height: 98%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,16 +50,16 @@ html {
   font-family: 'IM Fell DW Pica', serif;
 }
 
-.footer {
-  position: absolute;
-  background-color: $primary;
-  color: $secondary;
-  width: 100%;
-  bottom: 0;
-  overflow: hidden;
-  padding: .5em;
-  margin-top: 0;
-}
+// .footer {
+//   position: absolute;
+//   background-color: $primary;
+//   color: $secondary;
+//   width: 100%;
+//   bottom: 0;
+//   overflow: hidden;
+//   padding: .5em;
+//   margin-top: 0;
+// }
 
 *, *:before, *:after {
   box-sizing: border-box;
