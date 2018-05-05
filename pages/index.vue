@@ -1,9 +1,11 @@
 <template>
 <div> 
   <section class="container is-widescreen">
-      lust for the devil 
-    <br>
-    from st paul, mn
+      <!-- lust <br> 
+      for the <br>
+      devil 
+    <br> -->
+    
   </section>
 </div>
 </template>

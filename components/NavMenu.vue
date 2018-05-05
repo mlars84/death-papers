@@ -2,7 +2,7 @@
   <div class="nav">
       <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-          <a class="navbar-item title is-1" href="/" style="font-family: 'Shrikhand', cursive;">Lust For The Devil</a>
+          <a class="navbar-item title is-1" href="/" style="font-family: 'Shrikhand', cursive;">Lust <br>for the<br> Devil</a>
           <button class="button navbar-burger">
             <span></span>
             <span></span>
@@ -13,7 +13,8 @@
           <div class="navbar-end">
             <nuxt-link class="navbar-item" to="/">home <span class="tic">|</span></nuxt-link>
             <nuxt-link class="navbar-item" to="/about">about <span class="tic">|</span></nuxt-link>
-            <nuxt-link class="navbar-item" to="/shows">shows</nuxt-link>
+            <nuxt-link class="navbar-item" to="/shows">shows <span class="tic">|</span></nuxt-link>
+            <nuxt-link class="navbar-item" to="/contact">contact</nuxt-link>
           </div>
         </div>
       </nav>
@@ -35,7 +36,7 @@ export default {
 }
 
 .navbar-item {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .tic {
